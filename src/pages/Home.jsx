@@ -4,11 +4,12 @@ import MainPage from "../components/MainPage";
 
 const Home = () => {
   return (
-    <div className="flex h-screen">
-      <div className="w-2/5 bg-[#f3f6fd]">
+    <div className="flex flex-col h-[100%] md:flex-row">
+      <div className="w-full md:w-2/5 bg-[#f3f6fd] md:h-screen">
         <SideBar />
       </div>
-      <div className="flex-1 p-4 bg-[#e9f0f8]">
+
+      <div className="flex-1">
         <MainPage />
       </div>
     </div>

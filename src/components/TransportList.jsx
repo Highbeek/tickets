@@ -18,11 +18,11 @@ const TransportList = () => {
 
   return (
     <div className="py-5">
-      <ul className="flex justify-between items-center">
+      <ul className="flex justify-between">
         {transport.map((item) => (
           <li
             key={item.id}
-            className={`flex flex-col items-center px-12 py-4 cursor-pointer ${
+            className={`flex flex-col items-center px-12 py-4 cursor-pointer md:justify-around ${
               activeTab === item.id ? "bg-[#74c684] text-white" : "bg-white"
             }`}
             onClick={() => setActiveTab(item.id)}

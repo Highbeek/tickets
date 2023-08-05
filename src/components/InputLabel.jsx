@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -20,7 +21,7 @@ const InputLabel = ({
       )}
       <label
         htmlFor={htmlFor}
-        className="flex bg-white items-center pl-5 gap-5 rounded-md mb-2"
+        className="flex bg-white items-center pl-5 gap-5 rounded-lg mb-2"
       >
         {Icon && <Icon color="gray" size={24} />}
         <input
